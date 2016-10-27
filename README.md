@@ -20,7 +20,7 @@ angular.module('myApp', ['ngHipsum']);
 ## Use it
 ```html
 <p hipsum paragraphs="2"></p>
-<h1 hipsum length="14"></h1>
+<h1 hipsum words="6"></h1>
 <h2 hipsum length="20"></h2>
 ```
 
@@ -29,13 +29,17 @@ angular.module('myApp', ['ngHipsum']);
 ```html
 <p hipsum paragraphs="2"></p>
 ```
+- `words`: number of words (as long as there are words available 💩)
+```html
+<p hipsum words="2"></p>
+```
 - `length`: length of string
 ```html
 <p hipsum paragraphs="2"></p>
 ```
 
 ## TODO (wishlist)
-- Add `words` attribute to choose # of words
+- ~~Add `words` attribute to choose # of words~~
 - Add `kitchensink` element
 
 # Credits

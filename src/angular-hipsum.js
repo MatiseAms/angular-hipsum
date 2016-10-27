@@ -114,17 +114,24 @@ angular.module("ngHipsum",[])
 			restrict: 'A',
 			scope: {
         length: '@',
-        paragraphs: '@'
+        paragraphs: '@',
+        words: '@'
 			},
       template: '<span ng-controller="hipsumDirectiveController as hipsumDirCtrl" ng-bind-html="hipsum"></span>'
 		};
 	}).controller('hipsumDirectiveController', ['$scope', '$http','$sce', function($scope, $http, $sce) {
       shuffle(hipsum);
 
-      if($scope.paragraphs){
-        hipsum = hipsum.slice(0,$scope.paragraphs);
+      if(!$scope.paragraphs){
+        $scope.paragraphs = 4;
       }
-      $scope.hipsum = hipsum.join('<br /><br />');
+      $scope.hipsum = hipsum.slice(0,parseInt($scope.paragraphs)).join('<br /><br />');
+
+      if($scope.words){
+        $scope.hipsum = $scope.hipsum.split(' ');
+        $scope.hipsum = $scope.hipsum.slice(0,parseInt($scope.words));
+        $scope.hipsum = $scope.hipsum.join(' ');
+      }
 
       if($scope.length){
         $scope.hipsum = $scope.hipsum.substr(0,parseInt($scope.length));
