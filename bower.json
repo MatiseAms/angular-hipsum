@@ -1,0 +1,27 @@
+{
+  "name": "angular-hipsum",
+  "authors": [
+    "Maurits Meester <maurits@matise.nl>"
+  ],
+  "description": "Angular directive for Hipster Ipsum",
+  "main": "src/angular-hipsum.js",
+  "keywords": [
+    "Hipsum",
+    "Hipster Ipsum",
+    "Lorem Ipsum",
+    "Lorem",
+    "Ipsum",
+    "Hipster",
+    "Directive",
+    "Angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.matise.nl",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
