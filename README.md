@@ -30,8 +30,8 @@ Load script in html after angular.js file
 ```
 
 ## TODO (wishlist)
-- add `words` attribute to choose # of words
-- add `kitchensink` element
+- Add `words` attribute to choose # of words
+- Add `kitchensink` element
 
 # Credits
 Special thanks to [Ian van Ness](http://ianvanness.com/) for providing the source of Hipster Ipsum on http://hipsterjesus.com/
