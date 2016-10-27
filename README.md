@@ -34,4 +34,4 @@ Load script in html after angular.js file
 - add `kitchensink` element
 
 # Credits
-Special thanks to [Ian van ness](http://ianvanness.com/) for providing the source of Hipster Ipsum on http://hipsterjesus.com/
+Special thanks to [Ian van Ness](http://ianvanness.com/) for providing the source of Hipster Ipsum on http://hipsterjesus.com/
