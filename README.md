@@ -20,7 +20,7 @@ Load script in html after angular.js file
 ```
 
 ## Available attributes
-- `paragraphs`: number of paragraphs
+- `paragraphs`: number of paragraphs (up to 99 paragraphs)
 ```html
 <p hipsum paragraphs="2"></p>
 ```
