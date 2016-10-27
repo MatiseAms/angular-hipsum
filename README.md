@@ -14,7 +14,7 @@ Load script in html after `angular.js` file
 
 Then, inject `ngHipsum` in your application module:
 ```javascript
-angular.module('myApp', [''ngHipsum'']);
+angular.module('myApp', ['ngHipsum']);
 ```
 
 ## Use it
