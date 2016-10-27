@@ -116,10 +116,7 @@ angular.module("ngHipsum",[])
         length: '@',
         paragraphs: '@'
 			},
-      template: '<span ng-controller="hipsumDirectiveController as hipsumDirCtrl" ng-bind-html="hipsum"></span>',
-			link: function($scope, $elem, $attr) {
-        console.log($elem);
-			}
+      template: '<span ng-controller="hipsumDirectiveController as hipsumDirCtrl" ng-bind-html="hipsum"></span>'
 		};
 	}).controller('hipsumDirectiveController', ['$scope', '$http','$sce', function($scope, $http, $sce) {
       shuffle(hipsum);
