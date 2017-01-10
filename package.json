@@ -1,0 +1,29 @@
+{
+  "name": "angular-hipsum",
+  "version": "2.0.0",
+  "description": "Angular directive for Hipster Ipsum",
+  "main": "src/angular-hipsum.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiseAms/angular-hipsum.git"
+  },
+  "keywords": [
+    "Hipsum",
+    "Hipster Ipsum",
+    "Lorem Ipsum",
+    "Lorem",
+    "Ipsum",
+    "Hipster",
+    "Directive",
+    "Angularjs"
+  ],
+  "author": "Maurits Meester <maurits@matise.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatiseAms/angular-hipsum/issues"
+  },
+  "homepage": "https://github.com/MatiseAms/angular-hipsum#readme"
+}
