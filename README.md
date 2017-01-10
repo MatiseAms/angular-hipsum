@@ -7,6 +7,11 @@ Install directive using [bower](http://bower.io):
 bower install angular-hipsum
 ```
 
+Or npm [npm](https://www.npmjs.com/):
+```bash
+npm install angular-hipsum
+```
+
 Load script in html after `angular.js` file
 ```html
 <script src="/vendor/angular-hipsum.js"></script>
